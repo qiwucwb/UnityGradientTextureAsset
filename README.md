@@ -1,7 +1,8 @@
 # UnityGradientTextureAsset
-Unity3d : create simple gradient texture asset
+Unity : create simple gradient texture asset
 ![setting](docs/setting.gif)
 ### Setup
+> Untiy > 2019.1
 1. Copy `GradientTextureAsset` folder to your project's assets folder.
 2. Done
 
