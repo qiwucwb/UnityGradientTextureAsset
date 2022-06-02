@@ -1,7 +1,6 @@
-///-----------------------------------------------------------------
-///   Author : yeer                    
-///   Date   : 02/06/2022 10:33
-///-----------------------------------------------------------------
+
+///https://github.com/qiwucwb/UnityGradientTextureAsset
+///@yeer
 
 using System.Collections;
 using System.Collections.Generic;
