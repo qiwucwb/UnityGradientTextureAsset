@@ -8,4 +8,4 @@ Unity3d : create simple gradient texture asset
 - ![new texture](docs/newtexture.png)
 
 - ![edit](docs/edit.png)
-- material ![mat](docs/mat.png)
+- use it like texture  ![mat](docs/mat.png)
