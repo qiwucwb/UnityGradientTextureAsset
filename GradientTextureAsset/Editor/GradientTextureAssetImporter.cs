@@ -12,14 +12,13 @@ using UnityEditor.AssetImporters;
 using UnityEditor.Experimental.AssetImporters;
 #endif
 
-
-
-namespace Yeer.GradientTextureAsset {
+namespace Yeer.GradientTextureAsset
+{
     [ScriptedImporter(1, "ygradient")]
     public class GradientTextureAssetImporter : ScriptedImporter
     {
-        public Gradient gradient = new Gradient() { colorKeys=new GradientColorKey[] { new GradientColorKey(Color.red,0) , new GradientColorKey(Color.blue, 1) } };
-        
+        public Gradient gradient = new Gradient() { colorKeys = new GradientColorKey[] { new GradientColorKey(Color.red, 0), new GradientColorKey(Color.blue, 1) } };
+
 
         public enum EType
         {
@@ -81,7 +80,7 @@ namespace Yeer.GradientTextureAsset {
                 tempTexture = new Texture2D(width, height, textureFormat, textureMipChain);
                 //TODO
             }
-           
+
             tempTexture.wrapMode = textureWrapMode;
             tempTexture.filterMode = textureFilterMode;
 
@@ -91,27 +90,4 @@ namespace Yeer.GradientTextureAsset {
         }
     }
 
-
-    //[CustomEditor(typeof(GrandientTextureAssetImporter)), CanEditMultipleObjects]
-    //public class AsepriteImporterEditor : ScriptedImporterEditor
-    //{
-    //    public override void OnInspectorGUI()
-    //    {
-    //        EditorGUI.LabelField(new Rect(0, 0, 100, 50), "12321");
-
-    //    }
-
-    //    //private void PivotPropField()
-    //    //{
-    //    //    var prop = GetProp(nameof(AsepriteImporterSettings.Pivot));
-    //    //    EditorGUILayout.PropertyField(prop);
-    //    //    if (((SpriteAlignment)prop.enumValueIndex) == SpriteAlignment.Custom)
-    //    //    {
-    //    //        NoLabelPropField("_pivot");
-    //    //    }
-    //    //}
-
-
-
-    //}
 }
