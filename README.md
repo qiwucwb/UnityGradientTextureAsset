@@ -1,5 +1,5 @@
 # UnityGradientTextureAsset
-Unity : create simple gradient texture asset
+Unity : Create simple gradient texture asset
 ![setting](docs/setting.gif)
 ### Setup
 > Untiy > 2019.1
@@ -13,4 +13,4 @@ Unity : create simple gradient texture asset
 - ![new texture](docs/newtexture.png)
 
 - ![edit](docs/edit.png)
-- use it like texture  ![mat](docs/mat.png)
+- Use it as a texture  ![mat](docs/mat.png)
